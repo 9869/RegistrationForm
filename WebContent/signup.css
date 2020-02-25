@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./ps.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-family: serif;
+    font-style: italic;
+}
+.registration{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0, 0.5);
+    border: 2px solid white;
+    padding: 25px;
+}
+h2{
+    padding: 0pc5px;
+}
+#name{
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: serif;
+    font-size: 18px;
+    background: none;
+    color: white;
+    text-align: center;
+}
+#number{
+    width: 35%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    font-family: serif;
+    font-size: 18px;
+    background: none;
+    color: white;
+    text-align: center;
+}
+#num{
+    padding: 7px 0px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 0;
+    background: none;
+    color: white;
+}
+#check{
+    font-family: serif;
+    font-size: 18px;
+}
+#sub{
+    width: 150px;
+    padding: 5px;
+    font-family: serif;
+    font-size:18px;
+    border: 1px solid white;
+    outline: 0;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+    text-align: center;
+}
+#sub:hover{
+    background: yellow;
+}
+#name:hover, #number:hover,#num:hover{
+    background-color: rgb(34, 204, 11);
+    color: black;
+}
